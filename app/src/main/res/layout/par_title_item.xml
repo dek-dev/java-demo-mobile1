@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.67dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colordfe3e4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/tv_par_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Camera"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            app:typeface_style="bold" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/tv_dif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/tv_par_title"
+            android:text="*11111"
+            android:textColor="@color/colorOrangeF7CA49"
+            android:textSize="10sp"
+            android:visibility="gone"
+            app:typeface_style="mid" />
+    </RelativeLayout>
+
+
+</LinearLayout>

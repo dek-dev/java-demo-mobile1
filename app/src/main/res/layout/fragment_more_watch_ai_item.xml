@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/watch_first_bg">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_arrows_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="274dp"
+        android:src="@drawable/watch_button_left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_arrows_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="274dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/watch_button_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="298dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="63dp"
+            android:layout_height="27dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="2dp"
+            android:background="@drawable/selector_watch"
+            android:checked="true"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/watch_46mm"
+            android:textColor="@drawable/selector_watch_color"
+            android:textSize="13.3sp" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="63dp"
+            android:paddingBottom="2dp"
+            android:layout_height="27dp"
+            android:background="@drawable/selector_watch"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/watch_41mm"
+            android:textColor="@drawable/selector_watch_color"
+            android:textSize="13.3sp" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="438dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_watch_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_wtach46_point_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/tv_watch_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/watch_46_black"
+            android:textColor="@color/color1a1a1a"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/iv_watch_point"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iv_watch_point"
+            app:typeface_style="mid" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.oppo.marketdemo.custom.ViewPagerIndicator
+        android:id="@+id/dot_horizontal_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/indicator_mar_bottom"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!--AI表-->
+    <include
+        android:id="@+id/view_ai"
+        layout="@layout/fragment_more_watch_ai_item"
+        android:visibility="visible" />
+
+    <com.oppo.marketdemo.custom.textview.TypefaceTextView
+        android:id="@+id/bt_compare_ai_back"
+        style="@style/bt_first_page_button"
+        android:text="@string/bt_tap_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

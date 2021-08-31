@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorBg">#ebeff0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorccFFFFFF">#ccFFFFFF</color>
+    <color name="colorWhite4CFFFFFF">#4CFFFFFF</color>
+    <color name="colorWhiteCCFFFFFF">#CCFFFFFF</color>
+    <color name="colorWhite4DFFFFFF">#4DFFFFFF</color>
+    <color name="colorebeff0">#ebeff0</color>
+    <color name="colorB3000000">#b3000000</color>
+    <color name="colore18637">#e18637</color>
+    <color name="colore99cb72">#99cb72</color>
+    <color name="colore3645b">#e3645b</color>
+    <color name="color000000">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="color010101">#010101</color>
+    <color name="color969696">#848484</color>
+    <color name="colora1acaf">#a1acaf</color>
+
+    <color name="colordfe3e4">#dfe3e4</color>
+
+    <color name="color4bb47c">#4bb47c</color>
+    <color name="colorb3ffffff">#b3ffffff</color>
+    <color name="color99FFFFFF">#99FFFFFF</color>
+    <color name="color66FFFFFF">#66FFFFFF</color>
+    <color name="color99000000">#99000000</color>
+
+    <color name="color3d3d3d">#3d3d3d</color>
+    <color name="color0b0b0b">#0b0b0b</color>
+    <color name="color575757">#575757</color>
+    <color name="colorBlack3">#333333</color>
+    <color name="colorBlack6">#666666</color>
+    <color name="colorBlack4C000000">#4C000000</color>
+    <color name="colorBlackf75d40">#f75d40</color>
+    <color name="color26bcc2c4">#26bcc2c4</color>
+    <color name="colorBlack4D111111">#4D111111</color>
+    <color name="colorBlackCC111111">#CC111111</color>
+    <color name="colorBlack353535">#353535</color>
+    <color name="colorccb2b2b2">#ccb2b2b2</color>
+    <color name="colorb3101010">#b3101010</color>
+    <color name="colore77f55">#e77f55</color>
+    <color name="colore5577f55">#55e77f55</color>
+    <color name="colorWhiteBEBEBE">#BEBEBE</color>
+    <color name="colorBlack99111111">#99111111</color>
+    <color name="color3f3f3f">#3f3f3f</color>
+
+    <color name="colorBlack66333333">#66333333</color>
+    <color name="color343434">#343434</color>
+    <color name="colorGrayE6F0F2">#EFF0F2</color>
+    <color name="colorGray9">#999999</color>
+
+    <color name="colorOrangeF7CA49">#F66448</color>
+    <color name="coloree000000">#EE000000</color>
+    <color name="color4D000000">#B3000000</color>
+    <color name="colord9ffffff">#26ffffff</color>
+    <color name="color99ffffff">#66ffffff</color>
+    <color name="colorF66448">#F66448</color>
+    <color name="colorf36449">#f36449</color>
+
+    <color name="colorRedC52f13">#c52f13</color>
+    <color name="colorYellowfdfe35">#fdfe35</color>
+    <color name="color55a0cb">#55a0cb</color>
+    <color name="color666666">#666666</color>
+    <color name="color868686">#868686</color>
+    <color name="colorEc5032">#ec5032</color>
+    <color name="color00TransparentE58235">#00E58235</color>
+
+    <color name="color3be4d8">#6CCD88</color>
+    <color name="color4EB9F1">#3EAEFB</color>
+    <color name="color00E1BA">#72D4D5</color>
+    <color name="colorfbd682">#EBC04B</color>
+    <color name="color7075d9">#7075d9</color>
+
+    <color name="colorda864e">#da864e</color>
+    <color name="color65c694">#65c694</color>
+    <color name="color18191a">#18191a</color>
+
+    <color name="color1a1a1a">#1a1a1a</color>
+    <color name="color63ffffff">#63ffffff</color>
+
+    <color name="over1">#248d43</color>
+    <color name="over2">#2e719f</color>
+    <color name="over3">#90721f</color>
+    <color name="over4">#299e9f</color>
+    <color name="over5">#48357a</color>
+
+</resources>

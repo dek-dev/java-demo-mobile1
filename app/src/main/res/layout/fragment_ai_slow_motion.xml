@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg_ai_slow" />
+
+    <com.oppo.marketdemo.custom.TextureVideoView
+        android:id="@+id/texture_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_compare"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ai_slow_compare_bg" />
+
+    <com.oppo.marketdemo.custom.TextureVideoView
+        android:id="@+id/texture_video_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_compare_bg"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:src="@mipmap/ic_camera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            style="@style/compare_point_guadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_tap_on"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:typeface_style="mid" />
+
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            style="@style/compare_point_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_tap_off"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:typeface_style="mid" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--步骤-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_step"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.oppo.marketdemo.custom.TextureVideoView
+            android:id="@+id/texture_video_view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_camera_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/bg_camera_slow0" />
+
+        <View
+            android:id="@+id/view_shade"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B3000000" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_ai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="303dp"
+                android:layout_marginStart="62dp"
+                android:src="@mipmap/ic_camera_tip_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:id="@+id/tv_ai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/bg_tip_camer_down"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingTop="4dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/colorWhite"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/ai_slow_motion_step1"
+                app:layout_constraintEnd_toEndOf="@id/btn_ai1"
+                app:layout_constraintStart_toStartOf="@id/btn_ai1"
+                app:layout_constraintTop_toBottomOf="@id/btn_ai1" />
+
+            <ImageView
+                android:id="@+id/iv_camera1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_camera_slow"
+                android:layout_marginTop="313dp"
+                app:layout_constraintEnd_toEndOf="@id/btn_ai1"
+                app:layout_constraintStart_toStartOf="@id/btn_ai1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_bt2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_ai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="473dp"
+                android:layout_marginEnd="34dp"
+                android:src="@mipmap/ic_camera_tip_small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+             <ImageView
+                 android:layout_marginTop="487dp"
+                 android:layout_marginStart="293dp"
+                 android:src="@mipmap/ai_slow_step_two"
+                 android:layout_width="wrap_content"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent"
+                 android:layout_height="wrap_content"/>
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/bg_tip_up"
+                android:gravity="center"
+                android:paddingBottom="6.6dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:text="@string/ai_slow_motion_step2"
+                app:layout_constraintBottom_toTopOf="@id/btn_ai2"
+                app:layout_constraintEnd_toEndOf="@id/btn_ai2"
+                app:layout_constraintStart_toStartOf="@id/btn_ai2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_button_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/bt_step"
+            style="@style/OnceButtonStyle"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:text="@string/bt_tap_step" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/bt_camera"
+            style="@style/OnceButtonStyle"
+            android:layout_weight="1"
+            android:text="@string/bt_tap_compare" />
+    </LinearLayout>
+
+    <!--对比按钮-->
+    <LinearLayout
+        android:id="@+id/ll_button_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_upper_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:src="@mipmap/upper_back" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/bt_camera1"
+            style="@style/OnceButtonStyle"
+            android:layout_marginBottom="0dp"
+            android:text="@string/bt_tap_compare" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

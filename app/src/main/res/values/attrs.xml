@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TypefaceTextView">            // 声名属性集的名称，即这些属性是属于哪个控件的。
+        <attr name="typeface_style" >
+            <flag name="small" value="0" />
+            <flag name="normal" value="1" />
+            <flag name="mid" value="2" />
+            <flag name="bold" value="3" />
+            <flag name="heavy" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CollapsibleSideMenuLayout">            // 声名属性集的名称，即这些属性是属于哪个控件的。
+        <attr name="layout_width_max" format="dimension" />
+        <attr name="layout_width_min" format="dimension" />
+    </declare-styleable>
+</resources>

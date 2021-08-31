@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/iv_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@mipmap/icon_phone_color_details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85324"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52569" />
+        <RadioGroup
+            android:id="@+id/view_pager_indicator"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="495dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+
+
+            <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:clickable="true"
+                android:checked="true"
+                android:drawableTop="@drawable/icon_phone_color_selector2"
+                android:enabled="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:drawablePadding="3dp"
+                android:paddingEnd="12dp"
+             />
+            <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:clickable="true"
+                android:layout_marginStart="20dp"
+                android:drawableTop="@drawable/icon_phone_color_selector1"
+                android:drawablePadding="3dp"
+                android:enabled="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@+id/details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/ry_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/msg_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="720dp"
+                android:layout_marginEnd="-1080dp"
+                android:orientation="vertical">
+
+                <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                    android:id="@+id/msg_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32.67dp"
+                    android:textColor="@color/colorBlack3"
+                    android:textSize="29.67sp" />
+
+                <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                    android:id="@+id/msg_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32.67dp"
+                    android:textColor="@color/colorBlack6"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/phone_color_menu_bg" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+                    android:id="@+id/radio_button1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/icon_phone_color_selector2"
+                    android:drawablePadding="1dp"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="@string/phone_color_Blue"
+                    android:textColor="@color/colorBlack6"
+                    android:textSize="13.34sp" />
+                <com.oppo.marketdemo.custom.textview.TypefaceRadioButton
+                    android:id="@+id/radio_button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/icon_phone_color_selector1"
+                    android:drawablePadding="1dp"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="@string/phone_color_Black"
+                    android:textColor="@color/colorBlack6"
+                    android:textSize="13.34sp" />
+
+
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/fragment_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom"
+                android:layout_marginStart="27dp"
+                android:layout_marginBottom="100dp"
+                android:src="@mipmap/upper_black_back" />
+
+            <FrameLayout
+                android:id="@+id/fl_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/color_tip_bg_red"
+                android:visibility="gone">
+
+                <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="@string/phone_color_msg_tip"
+                    android:textColor="#F66448"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="52dp"
+                    android:background="@mipmap/color_tip_bg_red"
+                    android:rotation="180"
+                     />
+
+                <ImageView
+                    android:id="@+id/iv_hand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:src="@mipmap/ic_phone_hand_red" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:id="@+id/tv_button"
+            style="@style/OnceButtonStyle"
+            android:text="@string/bt_tap_more"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

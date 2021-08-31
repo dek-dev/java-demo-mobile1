@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/drawable/circle_stepview_white.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/drawable/w51_circle_red.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/activity_basemenu.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/activity_parameter.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/activity_product_video.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/activity_sub_page.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/camera_main_fragment.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/exterior_main_fragment.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/fragment_ai_portrait.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/fragment_ai_portrait_layout2.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/fragment_ai_slow_motion.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/reno_four_widget.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/two_exp_item.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/two_photo_fragment.xml" value="0.259375" />
+        <entry key="..\:/Users/IT-Wut/Documents/Tager/app/src/main/res/layout/two_stage_activity.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

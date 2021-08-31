@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg_memory" />
+
+    <com.oppo.marketdemo.custom.TextureVideoView
+        android:id="@+id/texture_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!--查看对比-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/big_memory_memory"
+                android:textSize="33sp"
+                android:textColor="@color/colorf36449"
+                app:typeface_style="bold"
+                />
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/big_memory_memory1"
+                android:textSize="25sp"
+                android:textColor="@color/colorf36449"
+                app:typeface_style="bold"
+                />
+        </LinearLayout>
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="157dp"
+            android:text="@string/big_memory_memory2"
+            android:textColor="@color/color3f3f3f"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <FrameLayout
+            android:id="@+id/fl_bg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="194dp"
+            android:background="@mipmap/big_store1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dp"
+                android:src="@mipmap/big_store11" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="85dp"
+                android:text="@string/big_memory_music"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="normal" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="140dp"
+                android:text="@string/big_memory_music_count"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_bg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="267dp"
+            android:background="@mipmap/big_store2"
+            android:scaleX="0"
+            android:scaleY="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dp"
+                android:src="@mipmap/big_store22" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="85dp"
+                android:text="@string/big_memory_photo"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="normal" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="140dp"
+                android:text="@string/big_memory_photo_count"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_bg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:background="@mipmap/big_store3"
+            android:scaleX="0"
+            android:scaleY="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dp"
+                android:src="@mipmap/big_store33" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="85dp"
+                android:text="@string/big_memory_video"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="normal" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="140dp"
+                android:text="@string/big_memory_video_count"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_bg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="413dp"
+            android:background="@mipmap/big_store3"
+            android:scaleX="0"
+            android:scaleY="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dp"
+                android:src="@mipmap/big_store44" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="85dp"
+                android:text="@string/big_memory_app"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="normal" />
+
+            <com.oppo.marketdemo.custom.textview.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="140dp"
+                android:text="@string/big_memory_app_count"
+                android:textColor="@color/color3f3f3f"
+                android:textSize="17sp"
+                app:typeface_style="bold" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

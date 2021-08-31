@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorebeff0"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/w51_bg4" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/ripple_layout"
+            android:layout_width="491dp"
+            android:layout_height="391dp"
+            android:rotationX="15"
+            android:rotationY="-2"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="-65.5dp"
+            android:layout_marginEnd="-65.5dp" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/w51_headset4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

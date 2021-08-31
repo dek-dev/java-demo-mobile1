@@ -1,0 +1,408 @@
+<resources>
+    <string name="app_name">-</string>
+
+    <string name="bt_tap_to_experience">Tap to Experience</string>
+    <string name="bt_tap_compare">การเปรียบเทียบ</string>
+    <string name="bt_tap_experience">ทดสอบ</string>
+    <string name="bt_tap_more">เพิ่มเติม</string>
+    <string name="bt_tap_step">ขั้นตอน</string>
+    <string name="bt_tap_back">Back</string>
+    <string name="bt_tap_camera">ทดสอบ</string>
+    <string name="bt_tap_other">Other</string>
+    <string name="bt_tap_on">เปิด</string>
+    <string name="bt_tap_off">ปิด</string>
+    <string name="bt_tap_oppo">Gaudi</string>
+    <string name="bt_tap_view_more">点击查看更多机型对比</string>
+    <string name="bt_tap_view_more_back">返回查看本机参数</string>
+
+    <string name="main_selling_point1">Performance</string>
+    <string name="main_selling_point2">Design</string>
+    <string name="main_selling_point3">Video</string>
+    <string name="main_selling_point4">ColorOS 7.2</string>
+    <string name="main_selling_point5">IOT</string>
+
+    <string name="home_menu_title">Specs</string>
+
+    <string name="secondary_selling_point1">Smart Spying Prevention</string>
+    <string name="secondary_selling_point2">Smart AirControl</string>
+    <string name="secondary_selling_point3">Snapdragon 720G</string>
+    <string name="secondary_selling_point4">30W VOOC Flash Charge 4.0</string>
+    <string name="secondary_selling_point5">8GB+128GB</string>
+
+
+    <string name="secondary_selling_point6">Dual Punch-hole Display</string>
+    <string name="secondary_selling_point7">Ultra Slim Body</string>
+    <string name="secondary_selling_point8">Trendy Colors</string>
+
+    <string name="secondary_selling_point9">AI Color Portrait</string>
+    <string name="secondary_selling_point10">960fps AI Slow-motion</string>
+    <string name="secondary_selling_point11">Ultra Steady Video 3.0</string>
+    <string name="secondary_selling_point12">Night Flare Portrait</string>
+    <string name="secondary_selling_point13">More Photograph</string>
+
+    <string name="secondary_selling_point14">Super Power Saving Mode</string>
+    <string name="secondary_selling_point15">Quick Return Bubble</string>
+    <string name="secondary_selling_point16">Decision Spinner</string>
+
+    <string name="secondary_selling_point17">OPPO Watch</string>
+    <string name="secondary_selling_point18">OPPO Enco W51</string>
+
+
+    <string name="string_null"></string>
+
+    /-----------------------------------------------------------------------------------------参数信息----------------------------------------------------------------------------------------------------------------------------------------------------/
+    <string name="parameter_color1">Galactic Blue</string>
+    <string name="parameter_color2">Space Black</string>
+
+    <string name="parameter_title1">Rear Camera: </string>
+    <string name="parameter_content1">48MP &amp; 8MP &amp; 2MP &amp; 2MP</string>
+    <string name="parameter_title2">Front Camera: </string>
+    <string name="parameter_content2">32MP &amp; AI-Enhanced Smart Sensor</string>
+    <string name="parameter_title3">Processor:</string>
+    <string name="parameter_content3">Snapdragon 720G</string>
+    <string name="parameter_title4">Battery:</string>
+    <string name="parameter_content4">4015mAh\n30W VOOC Flash Charge 4.0</string>
+    <string name="parameter_title5">Weight:</string>
+    <string name="parameter_content5">165g</string>
+    <string name="parameter_title6">Memory:</string>
+    <string name="parameter_content6">8GB+128GB</string>
+    <string name="parameter_title7">System:</string>
+    <string name="parameter_content7">ColorOS 7.2\n(based on Android 10)</string>
+    <string name="parameter_title8"></string>
+    <string name="parameter_content8"></string>
+    <string name="parameter_remake">Disclaimer:</string>
+    <string name="parameter_remake_content">
+    \n* ปัจจุบันนี้ Smart AirControl scrolling  ใช้ได้กับ Facebook Instagram Tiktok และ YouTube เท่านั้น Smart AirControl call ตอบรับการโทรด้วยเสียงเท่านั้นและไม่สามารถใช้ได้กับการโทรด้วยวิดีโอหรือแอปการโทรฝ่ายที่สาม ผู้ใช้สามารถเปิดใช้งานคุณสมบัตินี้ได้โดยเข้าไปที่ การตั้งค่า->เครื่องมืออำนวยความสะดวก->ท่าทาง &amp; การเคลื่อนไหว->Air Gestures
+\n* ตามที่วัดจากการทดสอบที่ดำเนินการโดย OPPO การชาร์จ -  จาก 1% ถึง 50%ใช้เวลาไม่เกิน 20 นาที
+\n* ขนาดหน้าจอวัดตามแนวทแยงมุมเป็นเซนติเมตร ขนาดหน้าจอ 6.4 นิ้ว (ประมาณ 16.3 ซม.) เป็นรูปสี่เหลี่ยมผืนผ้าแบบเต็มและอัตราส่วนหน้าจอ 90.7% (พื้นที่ใช้งาน) พื้นที่ที่ดูได้จริงนั้นจะน้อยกว่า เนื่องจากมุมมนและรูกล้อง
+\n* วิดีโอสโลว์โมชันของ - นั้นถ่ายได้ที่ 240 fps และใช้อัลกอริธึมการใส่เฟรมเพื่อสร้างเฟรมเรทที่ 960 fps
+\n* Quick Return Bubble ของ - สนับสนุน PUBG Mobile, PUBG Lite, Mobile Legends และ AOV (ไม่รองรับในอินเดีย) ภูมิภาคที่รองรับ: อินเดีย อินโดนีเซีย เวียดนาม และ ไทย
+\n* Product pictures are for reference only. Certain product specifications and descriptions may change for reasons including but not limited to changes in suppliers. Please refer to the actual product for all criteria.  รูปภาพผลิตภัณฑ์ใช้สำหรับการอ้างอิงเท่านั้น ข้อมูลและรายละเอียดของผลิตภัณฑ์บางอย่างอาจมีการเปลี่ยนแปลงด้วยเหตุผลซึ่งรวมถึง แต่ไม่จำกัดเฉพาะการเปลี่ยนแปลงในซัพพลายเออร์ โปรดดูผลิตภัณฑ์จริงสำหรับเกณฑ์ทั้งหมด
+\n* ข้อมูลในการอธิบายผลิตภัณฑ์นี้มาจากพารามิเตอร์ทางเทคนิคของ OPPO  รวมถึงข้อมูลการทดสอบในห้องปฏิบัติการและผู้จำหน่าย ข้อมูลจำเพาะของผลิตภัณฑ์จริงอาจแตกต่างกันเล็กน้อย ซึ่งขึ้นอยู่กับเวอร์ชันของซอฟต์แวร์ สภาพแวดล้อมการทดสอบเฉพาะ และเวอร์ชันสเปก
+    </string>
+
+
+    <!--性能 small title 当作是当前页面的中文解释,没有用到-->
+
+    <!--AON 智能防窥-->
+    <string name="triple_ano_title">Smart Spying Prevention</string>
+    <string name="triple_ano_small_title">智能防窥</string>
+    <string name="triple_ano_content">Smart Spying Prevention ช่วยป้องกันการแจ้งเตือนหน้าจออัตโนมัติ และจะไม่ปรากฏข้อความ \nจนกว่าคุณจะเปิดในแบบส่วนตัว</string>
+    <string name="triple_ano_remake">*ขั้นตอน:การตั้งค่า->การแจ้งเตือน &amp; แถบสถานะ ->จัดการการแจ้งเตือน\n->ป้องกันการแอบดู</string>
+
+    <!--AON 手势操作-->
+    <string name="hand_title">Smart AirControl</string>
+    <string name="hand_title_small_title">手势操作</string>
+    <string name="hand_title_content">ด้วยระบบ AI-Enhanced Smart Sensor การใช้ท่าทางมือแค่ใช้มือปัดขึ้นก็สามารถรับสายได้ แม้มือเปียก</string>
+    <string name="hand_remake">*ขั้นตอน:การตั้งค่า->เครื่องมืออำนวยความสะดวก->ท่าทาง &amp; การเคลื่อนไหว\n->ฟังก์ชันการทำงานโดยไม่ต้องสัมผัสหน้าจอ</string>
+
+    <!--5G-->
+    <string name="super_net_title">Snapdragon 720G</string>
+    <string name="super_net_small_title">5G</string>
+    <string name="super_net_content">เพลิดเพลินไปกับประสบการณ์ \nการเล่นเกมที่ลื่นไหลไม่ว่าเกมไหนก็เอาอยู่</string>
+    <string name="super_net_remake">*เปรียบเทียบกับ Reno3</string>
+
+    <!--超级闪充-->
+    <string name="super_vooc_title">30W VOOC Flash Charge 4.0</string>
+    <string name="super_vooc_title2">ระบบความปลอดภัย 5 ชั้น</string>
+    <string name="super_vooc_small_title">超级闪充</string>
+    <string name="super_vooc_content">30W VOOC Flash Charge 4.0 ซึ่งเป็นผู้นำอุตสาหกรรม ชาร์จ 1% ถึง 50% ใช้เวลาไม่เกิน 20 นาที</string>
+    <string name="super_vooc_contentc_compare">30W VOOC Flash Charge 4.0 ซึ่งเป็นผู้นำอุตสาหกรรม ทำให้ชาร์จจาก 1% เป็น 50% \nใช้เวลาไม่เกิน 20 นาที</string>
+
+    <string name="super_vooc_book">ระบบความปลอดภัย5ชั้นแบบพิเศษของ OPPO ได้รับการรับรองจากสถาบัน TÜV เรื่องระบบการชาร์จ\nอย่างรวดเร็วและปลอดภัย</string>
+    <string name="super_vooc_title_compare_30w">5 นาที</string>
+    <string name="super_vooc_title_compare_44w">15 นาที</string>
+    <string name="super_vooc_title_compare_50w">เต็ม</string>
+    <string name="super_vooc_content_compare_text_left_top">56</string>
+    <string name="super_vooc_content_compare_text_right_top">72</string>
+    <string name="super_vooc_content_compare_text_top_m">นาที</string>
+    <string name="super_vooc_content_compare_text_left">30W</string>
+    <string name="super_vooc_content_compare_text_left_next">VOOC Flash \nCharge 4.0</string>
+    <string name="super_vooc_content_compare_text_right">20W</string>
+    <string name="super_vooc_content_compare_text_right_next">VOOC Flash \nCharge 3.0</string>
+
+    <string name="super_vooc_title_more_two_title_vooc1">การควบคุมพลังงานแบบเรียลไทม์</string>
+    <string name="super_vooc_title_more_two_title_vooc2">การจัดการแบตเตอรี่อย่างเป็นอัจฉริยะ</string>
+    <string name="super_vooc_title_more_two_title_vooc3">ชิปควบคุมสายเคเบิล</string>
+    <string name="super_vooc_title_more_two_content_vooc3">(การรับรู้สภาพของ VOOC)</string>
+    <string name="super_vooc_title_more_two_title_vooc4">ตรวจจับแรงดันไฟฟ้า + การตรวจสอบวงจร</string>
+    <string name="super_vooc_title_more_two_title_vooc5">ควบคุมชิปอย่างเป็นอัจฉริยะ</string>
+
+    <!--8GB+128GB-->
+    <string name="big_memory_title">8GB+128GB</string>
+    <string name="big_memory_small_title">8GB+128GB</string>
+    <string name="big_memory_content">- มาพร้อมกับ Ram8GB ใช้งานได้อย่างลื่นไหล และหน่วยความจำ 128GB จัดเก็บข้อมูลเยอะจุใจ</string>
+    <string name="big_memory_memory">128</string>
+    <string name="big_memory_memory1">GB</string>
+    <string name="big_memory_memory2">larger storage</string>
+    <string name="big_memory_music">Music</string>
+    <string name="big_memory_music_count">25000+</string>
+    <string name="big_memory_photo">Photo</string>
+    <string name="big_memory_photo_count">30000+</string>
+    <string name="big_memory_video">Video</string>
+    <string name="big_memory_video_count">250+</string>
+    <string name="big_memory_app">App</string>
+    <string name="big_memory_app_count">2500+</string>
+
+
+    <!--外观-->
+    <!--全面屏-->
+    <string name="refresh_rate_title">Dual Punch-hole Display</string>
+    <string name="refresh_rate_small_title">全面屏</string>
+    <string name="refresh_rate_content">พื้นที่หน้าจอ 90.7% สีสันสดใสและได้รับการรับรองจาก TÜV ในเรื่องการตัดแสงสีฟ้า ทำให้การใช้งานบนหน้าจอได้ยาวนานขึ้นยิ่งขึ้น</string>
+
+
+    <!--轻薄机身-->
+    <string name="phone_body_title">Ultra Slim Body</string>
+    <string name="phone_body_small_title">轻薄机身</string>
+    <string name="phone_body_content">บางเพียง 7.7mm. และ น้ำหนัก 165g. บางเบาจับถนัดมือ</string>
+
+    <!--潮流配色-->
+    <string name="phone_color_title">Galactic Blue</string>
+    <string name="phone_color_small_title">颜色</string>
+    <string name="phone_color_content">ผิวสัมผัสสุดพิเศษ ป้องกันรอยนิ้วมือ\nและมีความเปล่งประกายดุจเพชร</string>
+    <string name="phone_color_content_blue">ผิวสัมผัสสุดพิเศษ ป้องกันรอยนิ้วมือ\nและมีความเปล่งประกายดุจเพชร</string>
+    <string name="phone_color_content_black">สีดำให้ความสุขุมทรงพลังน่าค้นหาราวกับท้องฟ้า\nยามค่ำคืน และลวดลายที่มีเอกลักษณ์เฉพาะตัว</string>
+
+    <string name="phone_color_Blue">Galactic Blue</string>
+    <string name="phone_color_blue_content">ผิวสัมผัสสุดพิเศษ ป้องกันรอยนิ้วมือ\nและมีความเปล่งประกายดุจเพชร</string>
+
+    <string name="phone_color_Black">Space Black</string>
+    <string name="phone_color_Black_content">สีดำให้ความสุขุมทรงพลังน่าค้นหาราวกับท้องฟ้า\nยามค่ำคืน และลวดลายที่มีเอกลักษณ์เฉพาะตัว</string>
+
+    <string name="phone_color_msg_tip">เลื่อนซ้ายหรือเลื่อนขวาเพื่อดูเพิ่มเติม</string>
+
+    <!--影像-->
+    <!--ai人像留色-->
+    <string name="ai_portrait_title">AI Color Portrait</string>
+    <string name="ai_portrait_small_title">AI人像留色</string>
+    <string name="ai_portrait_content">โหมดถ่ายภาพและวีดีโอปรับแต่งด้วย AI สามารถเก็บสีบุคคลให้โดดเด่น และปรับสีฉากหลังให้เป็นขาวดำ</string>
+    <string name="ai_portrait_title_por">AI Color Portrait(วีดีโอ)</string>
+    <string name="ai_portrait_title_rgb">Monochrome Video</string>
+    <string name="ai_portrait_title_rgb_content">วีดีโอเก็บสีแดง สีน้ำเงินและสีเขียวของบุคคลและวัตถุ และให้พื้นหลังเป็นสีขาวดำให้โดดเด่น\nและสวยเป็นธรรมชาติ</string>
+
+    <string name="ai_portrait_title_photo">AI Color Portrait(ภาพถ่าย)</string>
+    <string name="ai_portrait_title_photo_content">ถ่ายภาพเก็บสีสันสดใสของบุคคลให้โดดเด่น \nและให้พื้นหลังเป็นสีขาวดำ สวยเป็นธรรมชาติ</string>
+    <string name="ai_photo_step1">แตะเพื่อเปิดตัวกรอง</string>
+    <string name="ai_photo_step2">แตะเพื่อเปิด AI Color Portrait</string>
+
+
+    <!--智能高帧慢动作-->
+    <string name="ai_slow_motion_title">960fps AI Slow-motion</string>
+    <string name="ai_slow_motion_small_title">智能高帧慢动作</string>
+    <string name="ai_slow_motion_content">ปรับเฟรมเรตได้สูงสุด 960fps บันทึกรายละเอียด\nการเคลื่อนไหวชัดเจนยิ่งขึ้น เปิดประสบการณ์ใหม่</string>
+    <string name="ai_slow_motion_step1">แตะเพื่อเปิด SLO-MO</string>
+    <string name="ai_slow_motion_step2">เลือก 960 fps</string>
+
+
+    <!--视频防抖3.0-->
+    <string name="anti_shake_title"> Ultra Steady \nVideo 3.0</string>
+    <string name="anti_shake_small_title">超级防抖 3.0</string>
+    <string name="anti_shake_content">ไม่ว่าคุณจะมีชีวิตการผจญภัยแบบไหน \nวิดีโอของคุณจะดูราบรื่นและมั่นคงกว่าที่เคย</string>
+    <string name="anti_shake_title_before">Front Steady Video</string>
+    <string name="anti_shake_content_before">การถ่ายวิดีโอกล้องหน้าที่สวยและคมชัด \nสามารถแบ่งปันชีวิตของคุณในวิดีโอแบบเรียลไทม์</string>
+    <string name="anti_shake_before_guadi">Front Steady Video</string>
+    <string name="anti_shake_before_other">Without\n Front Steady Video</string>
+
+    <string name="anti_shake_title_after">Ultra Steady Video</string>
+    <string name="anti_shake_content_after">อัลกอริทึมป้องกันภาพสั่นไหววิดีโอระดับมืออาชีพ \nมีความเสถียรและชัดเจนในทุกการสถานการณ์</string>
+    <string name="anti_shake_after_guadi">Ultra Steady Video</string>
+    <string name="anti_shake_after_other">Without\n Ultra Steady Video</string>
+
+    <string name="anti_shake_title_pro">Ultra Steady \nVideo Pro</string>
+    <string name="anti_shake_content_pro">ultra wide-angle lens แม้ในสภาพแวดล้อมที่สั่นไหว\nก็จะได้วิดีโอมุมกว้างที่มีคุณภาพ</string>
+    <string name="anti_shake_pro_guadi">Ultra Steady Video Pro</string>
+    <string name="anti_shake_pro_other">Without\n Ultra Steady Video Pro</string>
+
+    <string name="anti_shake_title_del">Delay video </string>
+    <string name="anti_shake_content_del">Delay video Delay video Delay video Delay video Delay video </string>
+    <string name="anti_shake_del_guadi">Delay video</string>
+    <string name="anti_shake_del_other">Without\n Delay video</string>
+    <string name="anti_shake_open">เปิด Front Steady Video</string>
+
+    <!--夜景霓虹人像-->
+    <string name="night_flare_portrait_title">Portrait Night Flare</string>
+    <string name="night_flare_portrait_small_title">夜景霓虹人像</string>
+    <string name="night_flare_portrait_content">ถ่ายภาพบุคคลระดับมืออาชีพ \nและโบเก้เบลอสวยในยามค่ำคืน</string>
+    <string name="night_flare_step_one">แตะเพื่อเปิดตัวกรอง</string>
+    <string name="night_flare_step_two">เลือกภาพบุคคลกลางคืน</string>
+
+
+    <!--更多影像功能-->
+
+    <string name="more_camera_features_title">Ultra Clear \n108MP Image</string>
+    <string name="more_camera_features_small_title">更多影像功能</string>
+    <string name="more_camera_features_content">ถ่ายภาพความละเอียดสูงสุด 108MP เก็บทุกรายละเอียด \nเพิ่มความชัดเจนให้คุณมั่นใจยิ่งขึ้น</string>
+
+    <string name="more_camera_features_title_bokeh">Video Bokeh</string>
+    <string name="more_camera_features_bokeh_content">ประสิทธิผลโบเก้สำหรับกล้องหน้าและกล้องหลัง\nทำให้ตัวบุคคลที่ถ่ายออกมามีคุณภาพเหมือนภาพยนตร์</string>
+
+    <string name="more_camera_features_title_dark">Ultra Dark Mode</string>
+    <string name="more_camera_features_dark_content">ทำให้คุณสามารถถ่ายภาพในที่แสงน้อย \nเก็บรายละเอียด คมชัด สวยงามเหมือนตอนกลางวัน</string>
+
+    <string name="more_camera_features_title_night">Ultra Night \nSelfie Mode</string>
+    <string name="more_camera_features_night_content">แสงน้อยไม่เป็นอุปสรรคต่อการเซลฟี่ ตอนกลางคืน\nก็สามารถถ่ายสวยเหมือนตอนกลางวัน</string>
+
+    <!--系统-->
+    <!--超级省电模式-->
+    <string name="power_saving_title">Super Power \nSaving Mode</string>
+    <string name="power_saving_small_title">·超级省电模式</string>
+
+    <string name="power_saving_content">การใช้พลังงานแบตเตอรี่ให้ยาวนานที่สุด ด้วยแบตเตอรี่เหลือเพียง 5% คุณยังสามารถคุย Line \nได้นานถึง 90 นาที</string>
+    <string name="power_saving_open">เปิด</string>
+    <string name="power_saving_close">ไม่เปิด</string>
+    <string name="power_saving_mode">โหมดประหยัดพลังงานขั้นสูง</string>
+    <string name="power_saving_chat">คุย Line ได้นานถึง 90 นาที ด้วยแบตเตอรี่ 5%</string>
+    <string name="power_saving_experience">ทดสอบ</string>
+
+    <!--闪回键-->
+    <string name="flashback_key_title">Quick Return Bubble</string>
+    <string name="flashback_key_small_title">单手操作模式</string>
+    <string name="flashback_key_content">หน้าต่างลอยจะแจ้งเตือนว่าการทำงานของแอป \nจะเล่นเกมและตอบแชทไปพร้อมๆกัน \nเพียงแตะเพื่อย้อนกลับ</string>
+
+    <!--小决定-->
+    <string name="small_decide_title">Decision Spinner</string>
+    <string name="screen_recorder_small_title">小决定</string>
+    <string name="small_decide_content">ช่วยให้คุณตัดสินใจและแก้ไขปัญหาการตัดสินใจยาก\nให้เป็นเรื่องง่าย</string>
+    <string name="small_decide_tip1">What we do \ntomorrow？</string>
+    <string name="small_decide_tip2">Which color \nshould I choose？</string>
+    <string name="small_decide_tip3">What we eat \ntonight？</string>
+
+    <!--Iot-->
+    <!-- 页面一 -->
+    <string name="watch_title">OPPO Watch</string>
+    <string name="watch_small_title">OPPO Watch</string>
+    <string name="watch_content">OPPO Watch มาพร้อมกับดีไซน์สุดหรู \nหน้าจอขอบโค้ง 3D</string>
+    <string name="watch_remake">*OPPO Watch 46mm มีหน้าจอAMOLEDขนาด 1.91 นิ้ว\nOPPO Watch 41mm มีหน้าจอ AMOLED ขนาด 1.6 นิ้ว</string>
+    <string name="watch_46_black">Black</string>
+    <string name="watch_46_gold">Glossy Gold</string>
+    <string name="watch_41_black">Black</string>
+    <string name="watch_41_pink">Pink Gold</string>
+    <string name="watch_41_white">Silver Mist</string>
+    <string name="watch_41mm">41mm</string>
+    <string name="watch_46mm">46mm</string>
+
+    <string name="watch_title_ai">Outfit-Matching AI Watch Face</string>
+    <string name="watch_title_ai_content">ภาพถ่ายตกแต่งด้วยAI จะได้ภาพพื้นหลังที่สวยเข้ากับคุณ ไม่ซ้ำกับคนอื่นอย่างแน่นอน</string>
+    <string name="watch_bt_ai_tip"></string>
+    <string name="watch_bt_ai_view">วิดีโอการทำงาน</string>
+
+    <!-- 页面二 -->
+    <string name="watch_title_full_intelligence">Wear OS by Google™</string>
+    <string name="watch_title_full_intelligence_content">โหลดคุณสมบัติการประหยัดเวลาเพื่อทำให้เวลาของคุณใช้อย่างมีประสิทธิภาพมากที่สุด</string>
+
+    <!-- 页面三 -->
+    <string name="watch_title_esim">เพื่อนออกกำลังกาย\nที่ในข้อมือ</string>
+    <string name="watch_title_esim_content">OPPO Watch ช่วยให้คุณออกกำลังกายแบบอัจฉริยะ ตรวจจับคลื่นหัวใจอย่างแม่นยำ</string>
+
+    <!-- 页面四 -->
+    <string name="watch_title_endurance">Dual-Chip Endurance System</string>
+    <string name="watch_title_endurance_content">ขับเคลื่อนโดยสองชิป OPPO Watch มีระบบความอดทนแบบชิปคู่ สนับสนุนโหมดแบตเตอรี่สองโหมด</string>
+    <string name="watch_title_endurance_remake">*คำอธิบายการใช้และการชาร์จดังกล่าวใช้กับ OPPO Watch 46 มม. (รุ่นWi-Fi)เท่านั้น</string>
+
+    <!--OPPO ENCO W51-->
+<!--    <string name="headset_title">OPPO Enco W51</string>-->
+<!--    <string name="headset_small_title">OPPO Enco W51</string>-->
+<!--    <string name="headset_content">Noise off.\nWorld on. </string>-->
+<!--    <string name="headset_remake">* Consult your local distributor for color availability.</string>-->
+
+    <string name="headset_title"></string>
+    <string name="headset_small_title"></string>
+    <string name="headset_content"></string>
+    <string name="headset_remake"></string>
+
+    <string name="headset_w51_write">Floral White</string>
+    <string name="headset_w51_black">Starry Blue</string>
+    <string name="headset_w51_blue">Aqua Blue</string>
+
+    <string name="headset_title_0">Hybrid Active Noise Cancellation</string>
+    <string name="headset_content_0">Intelligently optimized noise reduction powered by a new dual-core chip for your immersive listening experience.</string>
+
+    <string name="headset_title1">Triple Microphone Noise Reduction</string>
+    <string name="headset_content1">Capture your voice clearly for calls with the new triple-mic noise reduction technology \nand design.</string>
+
+    <string name="headset_title2">Intuitive Tap Controls for Easy Operations</string>
+    <string name="headset_content2">Simply tap your headphones for quick pairing, skipping songs, picking up calls, summoning voice assistant, and more operations.</string>
+
+    <string name="headset_title3">Qi Wireless Charging</string>
+    <string name="headset_content3">Charge wirelessly by simply putting it on a charging mat* and let the music flow.</string>
+    <string name="headset_content3_remake">*The W51 Headphones don’t come with a charging mat in the package.</string>
+
+    <string name="headset_two_out">Microphone</string>
+    <string name="headset_two_in">Microphone</string>
+    <string name="headset_two_call">Microphone</string>
+
+    <string name="headset_open">Tap to open</string>
+    <string name="headset_close">Tap to close</string>
+
+
+    <string name="more_parameter_title"></string>
+    <string name="more_parameter_small_title"></string>
+    <string name="more_parameter_content"></string>
+
+    <!--过度页-->
+    <string name="sub_page_tips">เลื่อนขึ้นหรือลงเพื่อสลับ</string>
+    <string name="over_string"></string>
+    <string name="over_performance_num">01</string>
+    <string name="over_performance_string">Performance</string>
+    <string name="over_performance_content">ประสิทธิภาพสูงสุด</string>
+
+    <string name="over_exterior_num">02</string>
+    <string name="over_exterior_string">Design</string>
+    <string name="over_exterior_content">การออกแบบล้ำสมัย</string>
+
+    <string name="over_camera_num">03</string>
+    <string name="over_camera_string">Camera</string>
+    <string name="over_camera_content">เก็บประสบการณ์ที่ดี จากกล้องสุดล้ำ</string>
+
+    <string name="over_system_num">04</string>
+    <string name="over_system_string">ColorOS 7.2</string>
+    <string name="over_system_content">ระบบปฎิบัติการอัจฉริยะ</string>
+
+    <string name="over_IOT_num">05</string>
+    <string name="over_IOT_string">IOT</string>
+    <string name="over_IOT_content">ทำให้ชีวิตสะดวกยิ่งขึ้น</string>
+
+    <!--主页-->
+    <string name="main_performance">Performance</string>
+    <string name="main_design">Design</string>
+    <string name="main_video">Camera</string>
+    <string name="main_experience">ColorOS 7.2</string>
+    <string name="main_iot">IOT</string>
+
+    <!--桌面卡片-->
+    <string name="launcher_item_title1">Performance</string>
+    <string name="launcher_item_title2">Design</string>
+    <string name="launcher_item_title3">Camera</string>
+    <string name="launcher_item_title4">ColorOS 7.2</string>
+    <string name="launcher_item_title5">IOT</string>
+
+
+    <!--二级-->
+    <string name="secondary_point1">Smart Spying \nPrevention</string>
+    <string name="secondary_point2">Smart \nAirControl</string>
+    <string name="secondary_point3">Qualcomm \nSnapdragon 720G</string>
+    <string name="secondary_point4">30W VOOC Flash\nCharge 4.0</string>
+    <string name="secondary_point4_1">8GB+128GB</string>
+
+    <string name="secondary_point5">Dual \nPunch-hole \nDisplay</string>
+    <string name="secondary_point6">Ultra \nSlim Body</string>
+    <string name="secondary_point7">Trendy \nColors</string>
+
+
+    <string name="secondary_point8">AI Color \nPortrait</string>
+    <string name="secondary_point9">960fps AI \nSlow-motion</string>
+    <string name="secondary_point10">Ultra Steady \nVideo 3.0</string>
+    <string name="secondary_point11">Portrait \nNight Flare</string>
+    <string name="secondary_point12">More \nPhotograph</string>
+
+
+    <string name="secondary_point13">Super Power \nSaving Mode</string>
+    <string name="secondary_point14">Quick Return \nBubble</string>
+    <string name="secondary_point15">Decision \nSpinner</string>
+    <string name="secondary_point16">Soloop</string>
+
+    <string name="secondary_point18">OPPO Watch</string>
+    <string name="secondary_point19">OPPO Enco W51</string>
+
+</resources>

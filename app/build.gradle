@@ -1,0 +1,76 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.opposs.marketdemo6"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    signingConfigs {
+        A11 {
+            keyAlias 'toprand'
+            keyPassword 'toprand'
+            storeFile file('../studio_toprand.jks')
+            storePassword 'toprand'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "boolean", "isShowLog", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all {
+                variant ->
+                    variant.outputs.all {
+                        output ->
+                            outputFileName = "OPPO-Reno4-Tagore-APK-${variant.versionName}-${releaseTime()}.apk"
+                    }
+            }
+            signingConfig signingConfigs.A11
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.0-beta2'
+    implementation 'com.facebook.fresco:fresco:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha02'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.4'
+
+}
+
+
+static def releaseTime() {
+    return new SimpleDateFormat("yyyyMMddHHmm").format(new Date())
+}
+
+//编译方式，在命令行中输入：gradlew aR
+

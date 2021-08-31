@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    tools:ignore="SmallSp">
+
+<!--    <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--        android:id="@+id/parameter_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingStart="0dp"-->
+<!--        android:paddingEnd="5dp"-->
+<!--        android:textSize="13sp"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:text="@string/parameter_4pro_title1"-->
+<!--        android:layout_gravity="start|top"-->
+<!--        app:typeface_style="mid"/>-->
+
+<!--    <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--        android:id="@+id/parameter_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:lineSpacingExtra="2dp"-->
+<!--        android:paddingStart="0dp"-->
+<!--        android:paddingEnd="5dp"-->
+<!--        android:textSize="12.67sp"-->
+<!--        android:textColor="@color/colorBlack6"-->
+<!--        android:text="@string/parameter_4pro_content1"-->
+<!--        android:layout_gravity="start|top" />-->
+
+<!--    <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--        android:id="@+id/parameter_tips"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:paddingStart="0dp"-->
+<!--        android:paddingEnd="5dp"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textColor="@color/colorGray9"-->
+<!--        android:text="@string/parameter_4pro_tips1"-->
+<!--        android:layout_gravity="start|top" />-->
+
+</LinearLayout>

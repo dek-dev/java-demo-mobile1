@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1747">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="716">
+
+            <ImageView
+                android:id="@+id/iv_widget1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_widget1" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="512"
+            android:weightSum="936"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_widget2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="563"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_widget2" />
+
+            <ImageView
+                android:id="@+id/iv_widget3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="373"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_widget4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="512"
+            android:orientation="horizontal"
+            android:weightSum="936">
+
+            <ImageView
+                android:id="@+id/iv_widget4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="563"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_widget3" />
+
+            <ImageView
+                android:id="@+id/iv_widget5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="373"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_widget5" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1747">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="716">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="110px"
+                android:layout_marginEnd="80px"
+                android:text="@string/launcher_item_title1"
+                android:textColor="@color/colorWhite"
+                android:textSize="64px"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="512"
+            android:orientation="horizontal"
+            android:weightSum="936">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="563">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="50px"
+                    android:layout_marginEnd="80px"
+                    android:text="@string/launcher_item_title2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="373">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="2px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/launcher_item_title4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="563"
+            android:orientation="horizontal"
+            android:weightSum="936">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="563">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="50px"
+                    android:layout_marginEnd="80px"
+                    android:text="@string/launcher_item_title3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="373">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="50px"
+                    android:layout_marginEnd="80px"
+                    android:text="@string/launcher_item_title5"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50px"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

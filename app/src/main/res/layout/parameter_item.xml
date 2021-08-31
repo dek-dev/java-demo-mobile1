@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="SmallSp">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/parameter_details_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical" >-->
+
+<!--        <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--            android:id="@+id/parameter_title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/parameter_title1"-->
+<!--            android:textColor="@color/colorBlack3"-->
+<!--            android:textSize="12.67sp"-->
+<!--            app:typeface_style="mid" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal" >-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_content"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingStart="0dp"-->
+<!--                android:paddingEnd="5dp"-->
+<!--                android:paddingBottom="15dp"-->
+<!--                android:text="@string/parameter_content1"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:lineSpacingExtra="-5dp"-->
+<!--                android:textColor="@color/colorBlack6"-->
+<!--                android:textSize="12.67sp"-->
+<!--                app:typeface_style="small" />-->
+
+<!--            <View-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="0dp" />-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_content2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingStart="0dp"-->
+<!--                android:paddingEnd="5dp"-->
+<!--                android:paddingBottom="15dp"-->
+<!--                android:lineSpacingExtra="-5dp"-->
+<!--                android:text="@string/parameter_4_content1"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:textColor="@color/colorBlack6"-->
+<!--                android:textSize="12.67sp"-->
+<!--                app:typeface_style="small" />-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+<!--    <FrameLayout-->
+<!--        android:id="@+id/parameter_price_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_ram1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="12.67sp"-->
+<!--                android:textColor="@color/colorBlack3"-->
+<!--                android:text="@string/parameter_ram1"-->
+<!--                android:layout_gravity="start|top"-->
+<!--                app:typeface_style="small"/>-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_price1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="-6dp"-->
+<!--                android:textSize="15.34sp"-->
+<!--                android:textColor="@color/colorBlack3"-->
+<!--                android:text="@string/parameter_price1"-->
+<!--                android:layout_gravity="start|top"-->
+<!--                app:typeface_style="bold"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="158dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_ram2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="12.67sp"-->
+<!--                android:textColor="@color/colorBlack3"-->
+<!--                android:text="@string/parameter_ram2"-->
+<!--                android:layout_gravity="start|top"-->
+<!--                app:typeface_style="small"/>-->
+
+<!--            <com.oppo.marketdemo.custom.textview.TypefaceTextView-->
+<!--                android:id="@+id/parameter_price2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="-6dp"-->
+<!--                android:textSize="15.34sp"-->
+<!--                android:textColor="@color/colorBlack3"-->
+<!--                android:text="@string/parameter_price2"-->
+<!--                android:layout_gravity="start|top"-->
+<!--                app:typeface_style="bold"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </FrameLayout>-->
+</FrameLayout>

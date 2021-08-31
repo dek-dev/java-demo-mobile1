@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorebeff0">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_watch_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="193dp"
+            android:src="@mipmap/wate_pay_sel_bg" />
+
+        <ImageView
+            android:id="@+id/iv_watch_cool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="235dp"
+            android:src="@mipmap/wate_cool_sel_bg" />
+
+        <ImageView
+            android:id="@+id/iv_watch_ifly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="278dp"
+            android:src="@mipmap/wate_ifly_sel_bg" />
+
+        <ImageView
+            android:id="@+id/iv_watch_fruit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="320dp"
+            android:src="@mipmap/wate_fruit_sel_bg" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="114dp"
+        android:background="@mipmap/ic_intelligence_watch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_intelligent_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="3.5dp"
+            android:src="@mipmap/wate_cool_main_bg" />
+
+        <ImageView
+            android:id="@+id/iv_black"
+            android:layout_width="138dp"
+            android:layout_height="163dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="3.5dp"
+            android:background="@color/colorBlack" />
+
+        <com.oppo.marketdemo.custom.TextureVideoView
+            android:id="@+id/texture_video_view"
+            android:layout_width="140dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="3.5dp"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorebeff0"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/w51_open_bg" />
+
+    <com.oppo.marketdemo.custom.TextureVideoView
+        android:id="@+id/texture_video_view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <com.oppo.marketdemo.custom.TextureVideoView
+        android:id="@+id/texture_video_view5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <com.oppo.marketdemo.custom.textview.TypefaceTextView
+        android:id="@+id/bt_compare"
+        style="@style/bt_first_page_button"
+        android:text="@string/bt_tap_compare"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_open"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_watch_circle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/w51_circle_red1"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_watch_circle"
+            app:layout_constraintEnd_toEndOf="@+id/iv_watch_circle"
+            app:layout_constraintStart_toStartOf="@+id/iv_watch_circle"
+            app:layout_constraintTop_toTopOf="@+id/iv_watch_circle" />
+
+        <ImageView
+            android:id="@+id/iv_watch_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="445dp"
+            android:layout_marginEnd="102dp"
+            android:background="@drawable/w51_circle_red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:layout_width="78dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/w51_rounded"
+            android:gravity="center"
+            android:text="@string/headset_open"
+            android:textColor="@color/colorWhite"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:typeface_style="normal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_close"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_watch_close_circle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/w51_circle_red1"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_watch_close_circle"
+            app:layout_constraintEnd_toEndOf="@+id/iv_watch_close_circle"
+            app:layout_constraintStart_toStartOf="@+id/iv_watch_close_circle"
+            app:layout_constraintTop_toTopOf="@+id/iv_watch_close_circle" />
+
+        <ImageView
+            android:id="@+id/iv_watch_close_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="102dp"
+            android:background="@drawable/w51_circle_red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.oppo.marketdemo.custom.textview.TypefaceTextView
+            android:layout_width="78dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="265dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/w51_rounded"
+            android:gravity="center"
+            android:text="@string/headset_close"
+            android:textColor="@color/colorWhite"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:typeface_style="normal"
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

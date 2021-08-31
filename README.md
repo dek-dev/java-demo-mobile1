@@ -1,1 +1,1 @@
-echo "# java-demo-mobile1"
+- remove raw files
